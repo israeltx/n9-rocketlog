@@ -1,10 +1,6 @@
 import { Request, Response } from "express";
 import { prisma } from "@/database/prisma";
 import { z } from "zod"
-// import { AppError } from "@/utils/AppError";
-// import { authConfig } from "@/configs/auth";
-// import { sign } from "jsonwebtoken"
-// import { compare } from "bcrypt";
 
 class DeliveriesController {
   async create(request: Request, response: Response) {
